@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>fortune form</title>
+        </head>
+            <body>
+                <p style = "font-family:'Courier New', Courier, monospace;">
+                    Fill out the form below to determine your future.
+                    </p>
+
+                <form action="/action_page.php" method="GET">
+                        <p style = "font-family:'Courier New', Courier, monospace;">
+                    First name:<br>
+                    <input type="text" name="firstname"><br>
+                    Last name:<br>
+                    <input type="text" name="lastname"></p> 
+                    
+                
+
+                <p style = "font-family:'Courier New', Courier, monospace;">
+                    Number of siblings:<input type="text" name="Siblings"></p> 
+                
+                
+                <p style = "font-family:'Courier New', Courier, monospace;">
+                    What is your favorite beverage:
+                    <select>
+                    <option value="cofee">Coffee</option>
+                    <option value="water">Water</option>
+                    <option value="alcohol">Alcohol</option>
+                    <option value="pop">Pop</option>
+                  </select></p>
+
+                  <p style = "font-family:'Courier New', Courier, monospace;">
+                        What is your favorite animal:<br>
+                        <input type="radio" name="animal" value="dog" checked> Dog<br>
+                        <input type="radio" name="animal" value="cat"> Cat<br>
+                        <input type="radio" name="animal" value="other"> Other
+
+                        <p style = "font-family:'Courier New', Courier, monospace;">
+                                What cities have you been to? Check all that apply:<br>    
+                                <input type="checkbox" name="city" value="sandeigo"> San Diego<br>
+                                <input type="checkbox" name="city" value="omaha"> Omaha<br>
+                                <input type="checkbox" name="city" value="dallas"> Dallas<br>
+                              
+                  <br>
+                  <input type="submit">
+
+                </form>
+            </body>
+    </html>
