@@ -1,3 +1,4 @@
+<h1>Fortune form</h1>
 What happens when you press the “submit” button? Paste the full URL you are sent to on submit.
 
 file:///action_page.php?firstname=CHUDIER&lastname=CHUOL&Siblings=2&animal=dog&city=omaha
@@ -17,3 +18,13 @@ Is there a way to pass multiple values through the URL query string for a single
 
 Answer: Yes there is, it will add a + sign to added values.
 file:///action_page.php?firstname=chudier+yat+chuol&lastname=CHUOL&Siblings=2&animal=dog&city=omaha
+
+<h1> Weather </h1>
+
+<h4>Describe the data contained in the API response. What can we discern about the weather in the specified city?</h4>
+
+There is more than one JSON dictionary with coordinates, weather, etc..
+
+<h4>How would we obtain the temperature in the specified city? Describe using Python dictionary syntax. (HINT: Assume that the JSON response is stored in a variable called json_response.)</h4>
+
+We would have to access the JSON dictionary with the variable name of "Main" then temp = request.args.get("temp")
