@@ -20,5 +20,4 @@ Stretch challenge question:
 Answer: Yes there is, it will add a + sign to added values.
 file:///action_page.php?firstname=chudier+yat+chuol&lastname=CHUOL&Siblings=2&animal=dog&city=omaha
 
-<h1> Weather </h1>
 
